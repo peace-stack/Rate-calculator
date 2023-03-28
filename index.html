@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <title>Service Reward</title>
+</head>
+<body>
+    <div id="body-container">
+        <div id="container">
+            <h1>Reward Staff</h1>
+    
+            <form class="calculator">
+                <div class="">
+                    <label for="">Meal charge</label>
+                    <input type="number" class="input" id="billamt" placeholder="$1000" >
+                </div>
+                <div class="">
+                    <label for="">Number(s) of staff</label>
+                    <input type="text" class="input" id="peopleamt" placeholder="Number of people" >
+                </div>
+                <div class="">
+                    <label> Ratings</label>
+                    <select name=""class="input" id="rating">
+                        <option disabled selected value="0">How was the service?</option>
+                        <option value="5">5% - Excellent</option>
+                        <option value="4">4&#37; - Satisfactory</option>
+                        <option value="3">3% - Good</option>
+                        <option value="2">2% - Poor</option>
+                        <option value="1">1% - Terrible</option>
+                    </select>
+                </div>
+    
+                <button type="button" id="calculate">Calculate Reward!</button>
+            </form>
+    
+            <div id="totalTip">
+                <div class="">$ <span id="tip">0.00</span></div><span id="Each">each</span>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

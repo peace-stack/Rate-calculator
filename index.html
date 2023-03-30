@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css"> 
+
     <title>Service Reward</title>
+
 </head>
 <body>
     <div id="body-container">
@@ -25,22 +27,23 @@
                     <label> Ratings</label>
                     <select name=""class="input" id="rating">
                         <option disabled selected value="0">How was the service?</option>
-                        <option value="5">5% - Excellent</option>
-                        <option value="4">4&#37; - Satisfactory</option>
-                        <option value="3">3% - Good</option>
-                        <option value="2">2% - Poor</option>
-                        <option value="1">1% - Terrible</option>
+                        <option value="0.05">5% - Excellent</option>
+                        <option value="0.04">4&#37;</option>
+                        <option value="0.03">3% - </option>
+                        <option value="0.02">2% </option>
+                        <option value="0.01">1% - Terrible</option>
                     </select>
                 </div>
     
                 <button type="button" id="calculate">Calculate Reward!</button>
             </form>
     
-            <div id="totalTip">
-                <div class="">$ <span id="tip">0.00</span></div><span id="Each">each</span>
+            <div class="totalTip">
+                <p id="tip">0.00</p>
+                <p id="Each">each</p>
             </div>
         </div>
     </div>
-   
+   <script src="/index.js"></script>
 </body>
 </html>

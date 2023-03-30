@@ -45,7 +45,7 @@ button{
     margin-top: 15px;
 } 
 
-.totalTip{
+#totalTip{
     margin-top: 15px;
     display: flex;
     flex-direction: column;
